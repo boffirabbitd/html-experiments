@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+
+.Agent {
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.Process {
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.Conclusions {
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  text-align: right;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.image-container {
+  position: relative;
+  width: 100vw;
+}
+
+.image {
+  display: absolute;
+  width: 100vw;
+  height: auto;
+}
+
+.image-hover {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .image-hover {
+  opacity: 1;
+}
+/*
+
