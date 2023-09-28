@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Abel");
 
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
 .Agent {
   font-family: "Abel", sans-serif;
   font-size: 20px;
   text-align: left;
   line-height: 1.5;
   color: #333;
+  margin-left: 1%;
   margin-bottom: 1em;
 }
 
@@ -25,6 +30,7 @@
   line-height: 1.5;
   color: #333;
   margin-bottom: 1em;
+  margin-right: 1%;
 }
 
 .image-container {
@@ -44,11 +50,13 @@
   top: 0;
   left: 0;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .image-container:hover .image-hover {
   opacity: 1;
 }
-/*
 
+.Second {
+  background: linear-gradient(to bottom, white, lightgray, white);
+}
