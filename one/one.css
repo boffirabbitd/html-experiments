@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Abel");
 
 body {
+  font-family: "abel", sans-serif;
   margin: 0px 0px 0px 0px;
   padding: 0px;
+}
+
+h1 {
+  text-align: center;
 }
 .Agent {
   font-family: "Abel", sans-serif;
