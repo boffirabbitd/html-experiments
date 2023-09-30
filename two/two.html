@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 70px;
+        align-items: center;
+      }
+      logo {
+        grid-column: 1;
+      }
+      .gheader:nth-child(1) {
+        grid-column: 2;
+      }
+      .headerG {
+        display:flex;
+        justify-content: right;
+        flex-grow: 1;
+      }
+      .contact {
+        margin-right: 10px;
+        background-color:#0a0a23;
+        color: #fff;
+        border: 1px solid #0a0a23; 
+        border-radius:10px; 
+        padding:15px;
+        min-height:30px; 
+        min-width: 120px;
+      }
+
+      .contact:hover {
+        background-color:#fff;
+        color: #0a0a23;
+        border:1px solid #0a0a23; 
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo.jpeg" alt="Logo">
+      <div class="headerG">    
+        <button class="contact">greed</button>
+        <button class="contact">aversion</button>
+        <button class="contact">delusion</button>
+      </div class='headerG'>
+    </header>
+    <h1>Es asi crack, te suena lo que te suena</h1>
+  </body>
+</html>
